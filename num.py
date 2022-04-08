@@ -4,7 +4,7 @@ from flask import Flask
 add = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
   return "Привет, мир!"
 
